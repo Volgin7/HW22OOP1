@@ -1,6 +1,7 @@
 import java.util.logging.Handler;
 
 public class Main {
+
     public static void main(String[] args) {
         Gryffindor harry = new Gryffindor("Гарри Поттер", 99, 88, 77, 66, 55);
         Gryffindor hermione = new Gryffindor("Гермиона Грейнджер", 22, 33, 44, 55, 66);

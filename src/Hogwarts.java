@@ -20,4 +20,5 @@ public class Hogwarts {
     public int getTransgression() {
         return transgression;
     }
+
 }

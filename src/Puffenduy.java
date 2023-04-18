@@ -32,5 +32,4 @@ public class Puffenduy extends Hogwarts {
                 ", loyalty=" + loyalty +
                 ", honesty=" + honesty;
     }
-
 }
