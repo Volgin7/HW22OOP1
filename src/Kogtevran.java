@@ -39,4 +39,5 @@ public class Kogtevran extends Hogwarts {
                 ", wit=" + wit +
                 ", creativity=" + creativity;
     }
+
 }

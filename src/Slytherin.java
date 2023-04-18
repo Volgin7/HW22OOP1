@@ -46,4 +46,5 @@ public class Slytherin extends Hogwarts {
                 ", resourcefulness=" + resourcefulness +
                 ", authority=" + authority;
     }
+
 }
