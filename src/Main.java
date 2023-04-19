@@ -23,9 +23,6 @@ public class Main {
         Slytherin gregory = new Slytherin("Грегори Гойл", 11, 22, 33, 44, 55, 44, 33);
         compareStudents(drako, gregory);
 
- //       compareAnyStudents(drako, padma);
- //       compareAnyStudents(harry, marcus);
-
         compareStudents(drako, padma);
         compareStudents(harry, marcus);
 
