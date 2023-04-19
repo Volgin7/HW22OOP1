@@ -7,6 +7,9 @@ public class Main {
         Gryffindor hermione = new Gryffindor("Гермиона Грейнджер", 22, 33, 44, 55, 66);
         Gryffindor ron = new Gryffindor("Рон Уизли", 11, 22, 33, 44, 55);
         compareStudents(ron, harry);
+        ron.compare(ron);
+        hermione.compare(ron);
+        System.out.println();
 
         Puffenduy zakharia = new Puffenduy("Захария Смит", 99, 88, 77, 66, 55);
         Puffenduy cedric = new Puffenduy("Седрик Диггори", 22, 33, 44, 55, 66);
