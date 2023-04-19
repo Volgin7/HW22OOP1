@@ -23,8 +23,11 @@ public class Main {
         Slytherin gregory = new Slytherin("Грегори Гойл", 11, 22, 33, 44, 55, 44, 33);
         compareStudents(drako, gregory);
 
-        compareAnyStudents(drako, padma);
-        compareAnyStudents(harry, marcus);
+ //       compareAnyStudents(drako, padma);
+ //       compareAnyStudents(harry, marcus);
+
+        compareStudents(drako, padma);
+        compareStudents(harry, marcus);
 
     }
 
@@ -81,7 +84,7 @@ public class Main {
         }
     }
 
-    public static void compareAnyStudents(Hogwarts studentOne, Hogwarts studentTwo) {
+    public static void compareStudents(Hogwarts studentOne, Hogwarts studentTwo) {
         if(studentOne.getMagic() > studentTwo.getMagic()) {
             System.out.println(studentOne.getName() + " обладает большей магией, чем " +  studentTwo.getName());
         } else if (studentOne.getMagic() < studentTwo.getMagic()) {
